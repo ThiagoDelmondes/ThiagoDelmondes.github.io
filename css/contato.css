@@ -1,0 +1,57 @@
+.contato {
+  color: white;
+  background-color: #000000;
+}
+
+.contato-item {
+  margin: 0 auto;
+  padding: 120px 20px 60px 20px;
+  gap: 100px;
+  max-width: 1400px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  position: relative;
+}
+
+.paragrafo {
+  font-size: 1.5rem;
+  line-height: 1.33;
+  color: #cccccc;
+  justify-self: center;
+}
+
+.direitos {
+  font-size: 1.125rem;
+  color: #8f8f8f;
+  grid-column: 1 / -1;
+  justify-self: center;
+}
+
+.contato-item li {
+  font-weight: bold;
+  font-size: 2.25rem;
+  line-height: 1.1;
+  color: #ffffff;
+  margin-bottom: 30px;
+  list-style: none;
+}
+
+.contato-item a {
+  color: #ffffff;
+}
+
+.contato {
+  position: relative;
+}
+
+.contato-item::after {
+  content: "";
+  display: block;
+  position: absolute;
+  background: url(../img/detalhe.svg);
+  width: 140px;
+  height: 120px;
+  background-repeat: no-repeat;
+  top: -73px;
+}

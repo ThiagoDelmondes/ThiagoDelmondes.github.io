@@ -1,0 +1,43 @@
+.introdução-item h1 {
+  margin-bottom: 30px;
+  font-size: 4.5rem;
+  line-height: 1.125;
+}
+
+.lobo,
+.subtitulo-experiência,
+.subtitulo-formação {
+  justify-self: center;
+}
+
+.introdução-item p {
+  font-size: 1.5rem;
+  color: #525252;
+}
+
+.introdução {
+  margin: 0 auto;
+  margin-bottom: 90px;
+  gap: 100px;
+  max-width: 1400px;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  align-items: center;
+}
+
+.introdução-item {
+  position: relative;
+}
+
+.introdução-item h1::before {
+  content: "";
+  display: block;
+  width: 140px;
+  height: 120px;
+  position: absolute;
+  background: url(../img/detalhe.svg);
+  background-repeat: no-repeat;
+  left: -35px;
+  top: -30px;
+  z-index: -1;
+}

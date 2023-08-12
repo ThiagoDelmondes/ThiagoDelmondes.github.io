@@ -1,0 +1,29 @@
+.imput {
+  display: flex;
+  list-style: none;
+  gap: 10px;
+}
+
+.imput a {
+  font-size: 1.16rem;
+  text-decoration: none;
+  line-height: 1.3;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #141414;
+  display: block;
+}
+
+.header {
+  display: flex;
+  max-width: 1400px;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  padding: 40px 20px;
+}
+
+.marca {
+  width: 6.5rem;
+}

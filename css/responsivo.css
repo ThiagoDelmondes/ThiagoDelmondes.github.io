@@ -1,0 +1,160 @@
+img {
+  object-fit: cover;
+  display: block;
+  object-position: center;
+}
+
+@media (max-width: 1300px) {
+  .cursos-container h3:before {
+    left: 0px;
+    top: -15px;
+  }
+
+  .header {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .lobo {
+    justify-self: center;
+  }
+
+  .introdução,
+  .formação {
+    gap: 10px;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .flex-ul h3 {
+    flex-grow: 1;
+    font-size: 1.225rem;
+    line-height: 1.4;
+    margin-bottom: 30px;
+  }
+
+  .experiência {
+    grid-template-columns: 1fr;
+  }
+
+  .experiência-item {
+    gap: 10px 40px;
+  }
+
+  .text-container {
+    display: grid;
+  }
+
+  .experiência .experiência-text {
+    font-size: 1.4rem;
+    text-align: center;
+    justify-self: center;
+    max-width: 50ch;
+    margin-bottom: 30px;
+  }
+
+  .experiência .subtitulo-experiência {
+    font-size: 3rem;
+
+    color: #000;
+    max-width: none;
+    word-break: normal;
+  }
+
+  .formação-item,
+  .subtitulo-formação {
+    display: grid;
+  }
+
+  .formação {
+    padding: 60px 20px;
+  }
+
+  .formação-item {
+    grid-column: 1 / -1;
+  }
+
+  .formação-item p {
+    justify-self: center;
+    text-align: center;
+  }
+
+  .formação h2 {
+    margin-bottom: 35px;
+    color: #000000;
+    max-width: none;
+    font-size: 4rem;
+    line-height: 1;
+    word-break: normal;
+    grid-column: 1 / -1;
+  }
+
+  .contato-item {
+    gap: 50px;
+    align-items: center;
+  }
+
+  .contato-item li {
+    font-weight: bold;
+    font-size: 1.25rem;
+    line-height: 1.1;
+    color: #ffffff;
+    margin-bottom: 30px;
+    list-style: none;
+  }
+
+  .contato-item .paragrafo {
+    font-size: 1rem;
+    line-height: 1.33;
+    color: #cccccc;
+  }
+}
+
+@media (max-width: 840px) {
+  .contato-item {
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+
+  .experiência-list {
+    gap: 10px 20px;
+    margin-top: 0px;
+    align-self: start;
+  }
+
+  .contato-item::after {
+    display: none;
+  }
+
+  .contato-item p {
+    text-align: center;
+  }
+
+  .contato-item ul {
+    padding: 0px;
+  }
+
+  .introdução-item h1 {
+    margin-top: 50px;
+    text-align: center;
+  }
+
+  .introdução-item p {
+    text-align: center;
+  }
+
+  .introdução-item h1::before {
+    display: none;
+  }
+
+  .introdução {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 940px) {
+  .introdução-item h1 {
+    margin-bottom: 30px;
+    font-size: 3.5rem;
+    line-height: 1.125;
+  }
+}
